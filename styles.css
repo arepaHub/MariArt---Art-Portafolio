@@ -1,0 +1,121 @@
+@font-face {
+    font-family:Minecraftia;
+    src: url(Assets/Minecraftia.ttf);
+}
+
+body {
+    background-image: url(Assets/FONDO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family:Minecraftia, sans-serif;
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    color: white;
+    background-color: rgba(17, 16, 24, 0.678);
+    border-radius: 5px;
+    box-shadow: 10px;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    
+}
+
+.clearfix{
+    clear:both;
+    color: white;
+}
+
+#content{
+    float:left;
+    width: 65%;
+    color: white;
+    border-radius: 5%;
+}
+
+aside{
+    float:right;
+    width: calc(20% - 20px);
+    background: rgba(190, 61, 111, 0.904);
+    padding: 10px;
+    color: white;
+}
+
+footer{
+    line-height: 30px;
+    height: 50px;
+    text-align: center;
+    background: rgba(22, 23, 39, 0.253);
+    border-radius: 10px;
+    margin: 10px;
+
+
+}
+
+.focus-in-expand {
+	-webkit-animation: focus-in-expand 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-expand 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes focus-in-expand {
+    0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+    }
+    100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+    }
+}
+@keyframes focus-in-expand {
+    0% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+    }
+    100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+    }
+}
+
+.instagram {
+    width: 25%; /* need to overwrite inline dimensions */
+    height: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+
+
+}
+
+p {
+    text-indent: 1.5cm;
+    margin-left: 30px;
+}
+
+img {
+    position: relative;
+    left: 20px;
+    top: -20px;
+}
+
+h2{
+    text-indent: 1.5cm;
+    
+}
+
